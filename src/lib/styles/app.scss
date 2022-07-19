@@ -1,7 +1,7 @@
 // src/lib/styles/app.scss
 
 :root {
-    --primary: #6f3f6f;
+    --primary: #5f2f5f;
     --secondary: #bfb8bf;
     --secondary-dark: #5f585f;
 }
@@ -21,15 +21,20 @@ html {
 }
 
 body {
-    width: 60%;
+    // width: 60%;
     margin: 0 auto;
     padding: 0;
+    color: var(--secondary-dark);
 
     h1 {
-        color: var(--primary);
+        color: var(--secondary-dark);
     }
 }
 
 .fade-horizontal {
     overflow-y: hidden;
+}
+
+img {
+    width: 100%;
 }
