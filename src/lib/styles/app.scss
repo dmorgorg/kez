@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+
+    h1 {
+        color: red;
+    }
+}
