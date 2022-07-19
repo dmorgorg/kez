@@ -1,6 +1,17 @@
+// src/lib/styles/app.scss
+
+:root {
+    --primary: #6f3f6f;
+    --secondary: #bfb8bf;
+    --secondary-dark: #5f585f;
+}
+
+
+
 html {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.35;
 }
 
 *,
@@ -15,6 +26,10 @@ body {
     padding: 0;
 
     h1 {
-        color: red;
+        color: var(--primary);
     }
+}
+
+.fade-horizontal {
+    overflow-y: hidden;
 }
