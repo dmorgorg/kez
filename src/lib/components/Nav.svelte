@@ -15,6 +15,8 @@
         list-style-type: none;
         margin-right: 1em;
         font-size: 1em;
+		margin: 0;
+		padding: 0.5em 1em;
 
         li {
             margin: 0.125em 0;
@@ -22,15 +24,14 @@
 	}
 
 	a {
-		&:link {
+		&:link,
+		&:visited,
+		&:active {
 			text-decoration: none;
-			color: black;
 			color: var(--secondary);
-        }
-
-		&:visited {
-			color: black;
-			color: var(--secondary);
+        }		
+		&:hover {
+			color: white;
 		}
 	}
 </style>

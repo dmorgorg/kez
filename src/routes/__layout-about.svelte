@@ -1,6 +1,5 @@
 <script>
 	import '$lib/styles/app.scss';
-	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
@@ -9,7 +8,6 @@
 </svelte:head>
 
 <div class="container">
-	<Header />
 	<div><slot /></div>
 	<Footer />
 </div>
