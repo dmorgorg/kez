@@ -22,10 +22,11 @@
 		margin-left: 2em;
 		background-color: var(--secondary-light);
 		padding: 1em;
-		font-style: italic;
+		/* font-style: italic; */
 		border-left: 0.25em solid var(--primary);
 		margin-top: 5em;
 		color: black;
+		font-family: 'Edu TAS Beginner';
 	}
 
 	img {

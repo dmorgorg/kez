@@ -26,6 +26,8 @@
 		color: var(--secondary);
 		text-shadow: 0 0 5px black;
 		margin-bottom: 1em;
+		font-family: 'Signika Negative', sans-serif;
+	
 
 		.leftmatter {
 			margin-left: 1em;
@@ -37,12 +39,16 @@
 			&:active {				
 					color: var(--secondary);
 					font-weight: bold;
-					font-size: 150%;
+					font-size: 200%;
 					text-decoration: none;				
 			}
 			&:hover {
 				color: white;
 			}
+		}
+
+		.title {
+			font-family: 'Signika Negative', sans-serif;
 		}
 	}
 </style>

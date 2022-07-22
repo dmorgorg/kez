@@ -15,6 +15,8 @@
 </div>
 
 <style lang="scss">
+	@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&family=Signika+Negative:wght@300;600&display=swap');
+
 	.container {
 		display: flex;
 		flex-direction: column;
