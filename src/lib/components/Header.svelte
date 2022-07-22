@@ -25,7 +25,7 @@
 		font-variant: small-caps;
 		color: var(--secondary);
 		text-shadow: 0 0 5px black;
-		margin-bottom: 1em;
+		/* margin-bottom: 1em; */
 		font-family: 'Signika Negative', sans-serif;
 	
 
@@ -49,6 +49,11 @@
 
 		.title {
 			font-family: 'Signika Negative', sans-serif;
+			font-weight: bold;
+		}
+		.subtitle {
+			font-family: 'Signika Negative', sans-serif;
+			font-weight: bold;
 		}
 	}
 </style>

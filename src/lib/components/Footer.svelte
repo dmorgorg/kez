@@ -16,6 +16,6 @@
 		/* background-color: var(--primary); */
         padding: 0.25em;
 		/* border-top: 3px solid var(--secondary); */
-		margin-top: 1em;
+		/* margin-top: 1em; */
 	}
 </style>

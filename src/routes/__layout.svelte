@@ -10,7 +10,7 @@
 
 <div class="container">
 	<Header />
-	<div><slot /></div>
+	<main><slot /></main>
 	<Footer />
 </div>
 
@@ -23,7 +23,7 @@
 		justify-content: space-between;
 		height: 100vh;
 
-		div {
+		main {
 			overflow-y: auto;
 		}
 	}

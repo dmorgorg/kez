@@ -3,7 +3,7 @@
 
 	<li><a href='/demo'>Demo</a></li>
 
-	<li><a href='/about'>Resum&eacute;</a></li>
+	<li><a href='/resume'>Resum&eacute;</a></li>
 </ul>
 
 <style lang="scss">
