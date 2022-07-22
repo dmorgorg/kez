@@ -25,6 +25,7 @@
 		font-variant: small-caps;
 		color: var(--secondary);
 		text-shadow: 0 0 5px black;
+		margin-bottom: 1em;
 
 		.leftmatter {
 			margin-left: 1em;

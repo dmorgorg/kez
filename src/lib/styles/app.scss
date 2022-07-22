@@ -4,6 +4,7 @@
     --primary: #5f2f5f;
     --secondary: #bfb8bf;
     --secondary: #A387AA;
+    --secondary-light: #bfafbf;
     --secondary-dark: #5f585f;
 }
 
@@ -26,10 +27,12 @@ body {
     margin: 0 auto;
     padding: 0;
     color: var(--secondary-dark);
+    color: black;
     height: 100%;
 
     h1 {
         color: var(--secondary-dark);
+        color: black;
     }
 }
 

@@ -20,11 +20,12 @@
 <style lang='scss'>
 	blockquote {
 		margin-left: 2em;
-		background-color: var(--secondary);
+		background-color: var(--secondary-light);
 		padding: 1em;
 		font-style: italic;
 		border-left: 0.25em solid var(--primary);
 		margin-top: 5em;
+		color: black;
 	}
 
 	img {
@@ -43,6 +44,7 @@
         align-content: center;
         margin: 0 3em;
         padding: 0 calc(50vw - 19em);
+		border: 1px solid green;
 	}
 
 	section {
