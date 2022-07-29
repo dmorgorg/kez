@@ -4,11 +4,13 @@
 </script>
 
 <svelte:head>
-	<title>keziah</title>
+	<title>keziah: resum&eacute;</title>
 </svelte:head>
 
 <div class="container">
-	<div><slot /></div>
+	
+		<slot />
+	
 	<Footer />
 </div>
 
@@ -18,9 +20,13 @@
 		flex-direction: column;
 		justify-content: space-between;
 		height: 100vh;
-
-		div {
-			overflow-y: auto;
-		}
 	}
 </style>
+
+
+		 <!-- width: 42.5em;
+		height: 55em;
+		margin: 1em auto; 
+		
+	 box-shadow: 0 0 3px 3px var(--secondary-light);  -->
+		

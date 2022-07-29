@@ -25,6 +25,17 @@
 
 		main {
 			overflow-y: auto;
+
+			-webkit-mask-image: linear-gradient(
+				to bottom,
+				transparent 0.5em,
+				red 1.25em,
+				red 94%,
+				transparent 98%
+			);
+			mask-image: linear-gradient(to bottom, transparent 0.25, red 1.25, red 95%, transparent 99%);
+
+			padding-top: 1em;
 		}
 	}
 </style>

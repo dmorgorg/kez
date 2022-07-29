@@ -25,9 +25,8 @@
 		font-variant: small-caps;
 		color: var(--secondary);
 		text-shadow: 0 0 5px black;
-		/* margin-bottom: 1em; */
 		font-family: 'Signika Negative', sans-serif;
-	
+		font-size: 125%;	
 
 		.leftmatter {
 			margin-left: 1em;

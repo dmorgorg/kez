@@ -13,13 +13,15 @@
 		justify-content: space-between;
 		align-content: flex-end;
         list-style-type: none;
-        margin-right: 1em;
-        font-size: 1em;
 		margin: 0;
+        margin-right: 0.5em;
+        font-size: 1em;
+		/* margin: 0; */
 		padding: 0.5em 1em;
 
         li {
-            margin: 0.125em 0;
+            margin: 0;
+			text-align: right;
         }
 	}
 

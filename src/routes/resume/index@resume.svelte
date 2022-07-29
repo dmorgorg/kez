@@ -3,32 +3,47 @@
 	let subtitle = 'Voice Actor';
 </script>
 
-<header>
-	<img src="/images/kat.jpg" alt="kat" />
-	<aside>
-		<p>
-			<a class="title" href="/" sveltekit:prefetch>
-				{title}
-			</a>
-		</p>
+<main>
+	<header>
+		<a href='/'><img src="/images/kat.jpg" alt="kat" /></a>
+		<aside>
+			<p>
+				<a class="title" href="/" sveltekit:prefetch>
+					{title}
+				</a>
+			</p>
+			<p>{subtitle}</p>
+		</aside>
+	</header>
+</main>
 
-		<p>{subtitle}</p>
-	</aside>
-</header>
-
-<div class="horizontal-bar"></div>
+<!-- <div class="horizontal-bar"></div>
 
 <div class="colored-box">
 	content
-</div>
-
+</div> -->
 <style lang="scss">
+	main {
+		width: 42.5em;
+		min-height: 55em;
+		margin: 1em auto;
+		border-radius: 5px 2em 5px 5px;
+		box-shadow: 0 0 3px 3px var(--secondary-light);
+	}
 	header {
 		height: 15em;
 		background-color: var(--primary);
 		font-variant: small-caps;
 		line-height: 0.1em;
 		display: flex;
+		border-radius: 5px 2em 0 0;
+		position: relative;
+
+		img {
+			/* width: auto; */
+			height: 15em;
+			margin-left: 5em;
+		}
 
 		aside {
 			position: absolute;
@@ -62,11 +77,11 @@
 				}
 			}
 		}
-		img {
+		/* img {
 			margin-left: 5em;
-		}
+		} */
 	}
-	.horizontal-bar {
+	/* .horizontal-bar {
 		height: 1em;
 		margin: 0 1em 1em 1em;
 		border-bottom: 0.2em solid var(--primary);
@@ -77,5 +92,5 @@
 		padding: 1em;
 		background-color: var(--secondary-light);
 		font-size: 80%;
-	}
+	} */
 </style>

@@ -36,6 +36,7 @@
 	img {
 		width: 100%;
 		height: auto;
+		box-shadow: 0 0 5px 2px var(--secondary-light);
 	}
 
 	.image {
@@ -48,24 +49,19 @@
 		justify-content: space-evenly;
 		align-content: center;
 		margin: 0 1em;
-		padding-top: 1.5em;
-		/* padding: 0 calc(50vw - 15em); */
+		padding-top: 1em;
+		padding-bottom: 1em;
 
-		-webkit-mask-image: linear-gradient(
-			to bottom,
-			transparent 0,
-			red 5%,
-			red 95%,
-			transparent 100%
-		);
-		mask-image: linear-gradient(to bottom, transparent 1%, red 5%, red 95%, transparent 99%);
+		
+		padding: 0 calc(50vw - 20em);
 
+		
 		section {
 			/* border: 2px solid red; */
 
 			section { 
 				/* border: 2px solid blue; */
-				flex: 1;
+				flex-grow: 1;
 			}
 		}
 	}

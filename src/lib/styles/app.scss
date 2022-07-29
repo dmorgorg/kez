@@ -42,14 +42,14 @@ body {
 //     overflow-y: hidden;
 // }
 
-main {
-    -webkit-mask-image: linear-gradient(to bottom,
-            transparent 2%,
-            red 7%,
-            red 93%,
-            transparent 98%);
-    mask-image: linear-gradient(to bottom, transparent 2%, red 7%, red 93%, transparent 98%);
-}
+// main {
+//     -webkit-mask-image: linear-gradient(to bottom,
+//             transparent 2%,
+//             red 7%,
+//             red 93%,
+//             transparent 98%);
+//     mask-image: linear-gradient(to bottom, transparent 2%, red 7%, red 93%, transparent 98%);
+// }
 
 /* width */
 ::-webkit-scrollbar {
