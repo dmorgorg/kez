@@ -8,9 +8,7 @@
 </svelte:head>
 
 <div class="container">
-	
-		<slot />
-	
+	<slot />
 	<Footer />
 </div>
 
@@ -22,11 +20,3 @@
 		height: 100vh;
 	}
 </style>
-
-
-		 <!-- width: 42.5em;
-		height: 55em;
-		margin: 1em auto; 
-		
-	 box-shadow: 0 0 3px 3px var(--secondary-light);  -->
-		

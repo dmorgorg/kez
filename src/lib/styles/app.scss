@@ -30,43 +30,32 @@ body {
     color: black;
     height: 100%;
     font-family: 'Signika Negative', sans-serif;
-    // font-size: 80%;
+    font-size: clamp(10px, 2vw, 20px);
 
-    h1 {
-        color: var(--secondary-dark);
-        color: black;
-    }
+    // h1 {
+    //     color: var(--secondary-dark);
+    //     color: black;
+    // }
 }
 
-// .fade-horizontal {
-//     overflow-y: hidden;
-// }
 
-// main {
-//     -webkit-mask-image: linear-gradient(to bottom,
-//             transparent 2%,
-//             red 7%,
-//             red 93%,
-//             transparent 98%);
-//     mask-image: linear-gradient(to bottom, transparent 2%, red 7%, red 93%, transparent 98%);
-// }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 1em;
+    width: 16px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
     background: var(--secondary-light);
     // padding: 0 2px;
-    width: 1em;
+    width: 16px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: var(--primary);
-    border-radius: 0.5em;
+    border-radius: 8px;
     border: 5px solid var(--secondary-light);
 }
 
