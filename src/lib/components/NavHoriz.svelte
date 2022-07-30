@@ -1,9 +1,11 @@
+<script>
+	import { page } from '$app/stores';
+</script>
+
 <ul>
-	<li><a href="/">Home</a></li>
-
-	<li><a href="/demo">Demo</a></li>
-
-	<li><a href="/resume">Resum&eacute;</a></li>
+	<li class:active={$page.url.pathname === '/'}><a href='/'>Home</a></li>
+	<li class:active={$page.url.pathname === '/demo'}><a href='/demo'>Demo</a></li>
+	<li class:active={$page.url.pathname === '/resume'}><a href='/resume'>Resum&eacute;</a></li>
 </ul>
 
 <style lang="scss">
@@ -16,12 +18,19 @@
 		margin-right: 0.5em;
 		font-size: 1em;
 		padding: 0.5em 0.5em 0 0;
+		font-variant: small-caps;
 
 		li {
 			margin: 0;
 			text-align: right;
 			margin-right: 1em;
 			margin-bottom: -0.5em;
+			color: var(--secondary-light);
+
+			&.active,
+			&:hover {
+				color: var(--primary);
+			}
 		}
 	}
 
@@ -30,11 +39,8 @@
 		&:visited,
 		&:active {
 			text-decoration: none;
-			color: var(--secondary-light);
+			color: inherit;
 		}
-		&:hover {
-			color: var(--primary);
-			/* text-shadow: 0 0 10px var(--secondary-light); */
-		}
+		
 	}
 </style>
