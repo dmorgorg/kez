@@ -1,6 +1,7 @@
 <script>
 	import '$lib/styles/app.scss';
 	import Footer from '$lib/components/Footer.svelte';
+	import NavHoriz from '$lib/components/NavHoriz.svelte';
 </script>
 
 <svelte:head>
@@ -8,6 +9,7 @@
 </svelte:head>
 
 <div class="container">
+	<NavHoriz />
 	<slot />
 	<Footer />
 </div>

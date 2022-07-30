@@ -1,4 +1,5 @@
 <script>
+	import HSep from '$lib/components/HSep.svelte';
 	let title = 'Keziah Hobbs';
 	let subtitle = 'Voice Actor';
 </script>
@@ -25,14 +26,54 @@
 			<p>{subtitle}</p>
 		</aside>
 	</header>
-	<div class="horizontal-bar" />
-	<div class="colored-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam minus cum itaque magni eveniet corporis sequi? At, ex! Nesciunt vel suscipit fugiat fugit doloribus, quod aspernatur! Delectus, quod blanditiis.</div>
+	<HSep />
+	<article>
+		<div class="colored-box">
+			<h1>Specializations</h1>
+			<ul>
+				<li>Lorem ipsum dolor sit</li>
+				<li>amet consectetur adipisicing elit.</li>
+				<li>Totam quam minus cum itaque magni</li>
+				<li>eveniet corporis sequi?</li>
+			</ul>
+			<h1>Education</h1>
+			<h2>Some school</h2>
+			<ul>
+				<li>Lorem ipsum dolor sit</li>
+				<li>amet consectetur adipisicing elit.</li>
+			</ul>
+			<h2>A different school</h2>
+			<ul>
+				<li>Lorem ipsum dolor sit</li>
+				<li>amet consectetur adipisicing elit.</li>
+				<li>Totam quam minus cum itaque magni</li>
+				<li>eveniet corporis sequi?</li>
+			</ul>
+		</div>
+		<div class="box">
+			<h1>Career</h1>
+			<ul>
+				<li>Lorem ipsum dolor sit</li>
+				<li>amet consectetur adipisicing elit.</li>
+				<li>Totam quam minus cum itaque magni</li>
+				<li>eveniet corporis sequi?</li>
+			</ul>
+			<h1>Interests</h1>
+			<ul>
+				<li>Lorem ipsum dolor sit</li>
+				<li>amet consectetur adipisicing elit.</li>
+				<li>Lorem ipsum dolor sit</li>
+				<li>amet consectetur adipisicing elit.</li>
+				<li>Totam quam minus cum itaque magni</li>
+				<li>eveniet corporis sequi?</li>
+			</ul>
+		</div>
+	</article>
 </main>
 
 <style lang="scss">
 	main {
 		width: 42.5em;
-		height: 50em;
 		box-shadow: 0 0 5px 3px var(--secondary-light);
 		border-radius: 5px 2em 5px 5px;
 		margin: 1em auto;
@@ -105,17 +146,48 @@
 				}
 			}
 		}
-		.horizontal-bar {
-			height: 1em;
-			margin: 0 1em 1em 1em;
-			border-bottom: 0.2em solid var(--primary);
+
+		article {
+			display: flex;
+			padding: 0;
+			margin: 0;
 		}
-		.colored-box {
+
+		.colored-box,
+		.box {
 			width: 45%;
-			margin: 0 1em;
+			margin: 1em;
 			padding: 1em;
 			background-color: var(--secondary-light);
-			font-size: 80%;
+
+			h1 {
+				color: var(--primary);
+				font-variant: small-caps;
+				font-size: 1.5rem;
+				margin: 0;
+				padding: 0;
+
+				& ~ h1 {
+					margin-top: 1em;
+				}
+
+				& ~ h2 {
+					font-style: italic;
+					color: var(--primary);
+					font-size: 1.125rem;
+					margin: 0.5em 0;
+				}
+			}
+		}
+
+		.box {
+			background-color: inherit;
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+			margin-left: 1em;
 		}
 	}
 </style>
