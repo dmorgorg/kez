@@ -29,7 +29,7 @@
 	<HSep />
 	<article>
 		<div class="colored-box">
-			<h1>Specializations</h1>
+			<!-- <h1>Specializations</h1>
 			<ul>
 				<li>Lorem ipsum dolor sit</li>
 				<li>amet consectetur adipisicing elit.</li>
@@ -48,7 +48,23 @@
 				<li>amet consectetur adipisicing elit.</li>
 				<li>Totam quam minus cum itaque magni</li>
 				<li>eveniet corporis sequi?</li>
-			</ul>
+			</ul> -->
+			<p>
+				Keziah Hobbs is a young Calgary-based voice actress specializing in character work and voice
+				over.
+			</p>
+
+			<p>
+				She is available for local studio work or can work remotely for national or international
+				spots.
+			</p>
+
+			<p>
+				If you need an exciting, fun, and nimble voice actor, Keziah is the perfect choice for your
+				show or advertising spot.
+			</p>
+
+			<p>She’s also able to work as an extra.</p>
 		</div>
 		<div class="box">
 			<h1>Career</h1>

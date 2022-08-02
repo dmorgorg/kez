@@ -11,8 +11,9 @@
 	</section>
 
 	<blockquote>
-		"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi culpa quos in minima nihil
-		fugiat."
+		"A true professional who really lived up to my expectations of the character."
+
+		<a href="https://kolodychuk.wixsite.com/rabbitears">Blaise Kolodychuk, Director of Rabbit Ear</a>
 	</blockquote>
 </main>
 
@@ -75,5 +76,15 @@
 			display: flex;
 			flex-direction: column;
 		}
+	}
+
+	a:link,
+	a:visited,
+	a:active {
+		text-decoration: none;
+		text-align: right;
+		float: right;
+		color: black;
+		margin-top: 1em;
 	}
 </style>
